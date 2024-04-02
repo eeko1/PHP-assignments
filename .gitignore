@@ -4,6 +4,7 @@
 
 # Database connection stuff
 database/dbconfig.php
+database/PDOErrors.txt
 
 # User-specific stuff
 .idea/**/workspace.xml
