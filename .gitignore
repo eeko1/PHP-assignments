@@ -5,7 +5,7 @@
 # Database connection stuff
 database/dbconfig.php
 database/PDOErrors.txt
-uploads/*
+database/uploads/*
 
 # User-specific stuff
 .idea/**/workspace.xml
