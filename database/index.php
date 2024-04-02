@@ -56,6 +56,7 @@ endif;
 </section>
 <dialog id="modify-modal">
     <p><a href="#" class="close-modal">Close</a></p>
+    <div id="modify-content"></div>
 </dialog>
 </body>
 </html>
