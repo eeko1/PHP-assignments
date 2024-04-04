@@ -23,7 +23,7 @@ class MediaItem {
         $this->created_at = new \DateTime($data['created_at']);
     }
 
-    public function getMediaId(): array {
+    public function getMediaItem(): array {
         return [
             'media_id' => $this->media_id,
             'user_id' => $this->user_id,

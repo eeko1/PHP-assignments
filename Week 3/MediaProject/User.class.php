@@ -19,7 +19,7 @@ class User {
         $this->created_at = new \DateTime($data['created_at']);
     }
 
-    public function getUserId(): array {
+    public function getUser(): array {
         return [
             'user_id' => $this->user_id,
             'username' => $this->username,
