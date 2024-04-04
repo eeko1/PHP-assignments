@@ -16,12 +16,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $user = $STH->fetch(PDO::FETCH_ASSOC);
         if ($user && password_verify($_POST['password'], $user['password'])) {
             $_SESSION['user'] = $user;
-            print_r($_SESSION['user']);
+            // print_r($_SESSION['user']);
             // redirect to secret page
-            // header('Location: home.php');
+            header('Location: home.php');
             exit;
         } else {
-            // header('Location: index.php?success=Invalid username or password');
+            header('Location: index.php?success=Invalid username or password');
         }
     }
 }
