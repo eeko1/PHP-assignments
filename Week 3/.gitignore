@@ -120,4 +120,5 @@ Temporary Items
 .apdisk
 
 config/config.php
-logs/
+logs/*
+uploads/*
